@@ -5,6 +5,8 @@ import (
 	"fmt"
 )
 
+const ABC = 100
+
 func main() {
 	var name string
 	flag.StringVar(&name, "name", "golang", "名字")
